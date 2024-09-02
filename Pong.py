@@ -118,7 +118,7 @@ def main():
 
     #initialize objects
     player1 = Paddle(WIDTH*.05, HEIGHT//2+75, 20, 150, 10, WHITE)
-    player2 = Paddle(WIDTH*.95+20, HEIGHT//2+75, 20, 150, 10, WHITE)
+    player2 = Paddle(WIDTH*.95-20, HEIGHT//2+75, 20, 150, 10, WHITE)
     ball = Ball(WIDTH//2, HEIGHT//2, 7, 7, WHITE)
 	
     Players = [player1, player2]
